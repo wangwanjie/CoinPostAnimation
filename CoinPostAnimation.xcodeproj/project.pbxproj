@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D120AD7C1D61B105004FDA2B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D120AD7B1D61B105004FDA2B /* main.m */; };
+		D120AD7F1D61B105004FDA2B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D120AD7E1D61B105004FDA2B /* AppDelegate.m */; };
+		D120AD821D61B105004FDA2B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D120AD811D61B105004FDA2B /* ViewController.m */; };
+		D120AD851D61B105004FDA2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D120AD831D61B105004FDA2B /* Main.storyboard */; };
+		D120AD871D61B105004FDA2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D120AD861D61B105004FDA2B /* Assets.xcassets */; };
+		D120AD8A1D61B105004FDA2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D120AD881D61B105004FDA2B /* LaunchScreen.storyboard */; };
+		D120AD961D61DF31004FDA2B /* YCPopViewArrayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D120AD951D61DF31004FDA2B /* YCPopViewArrayModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D120AD771D61B105004FDA2B /* CoinPostAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoinPostAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D120AD7B1D61B105004FDA2B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D120AD7D1D61B105004FDA2B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D120AD7E1D61B105004FDA2B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D120AD801D61B105004FDA2B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D120AD811D61B105004FDA2B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D120AD841D61B105004FDA2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D120AD861D61B105004FDA2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D120AD891D61B105004FDA2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D120AD8B1D61B105004FDA2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D120AD941D61DF31004FDA2B /* YCPopViewArrayModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCPopViewArrayModel.h; sourceTree = "<group>"; };
+		D120AD951D61DF31004FDA2B /* YCPopViewArrayModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCPopViewArrayModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D120AD741D61B105004FDA2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D120AD6E1D61B105004FDA2B = {
+			isa = PBXGroup;
+			children = (
+				D120AD791D61B105004FDA2B /* CoinPostAnimation */,
+				D120AD781D61B105004FDA2B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D120AD781D61B105004FDA2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D120AD771D61B105004FDA2B /* CoinPostAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D120AD791D61B105004FDA2B /* CoinPostAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				D120AD7D1D61B105004FDA2B /* AppDelegate.h */,
+				D120AD7E1D61B105004FDA2B /* AppDelegate.m */,
+				D120AD801D61B105004FDA2B /* ViewController.h */,
+				D120AD811D61B105004FDA2B /* ViewController.m */,
+				D120AD941D61DF31004FDA2B /* YCPopViewArrayModel.h */,
+				D120AD951D61DF31004FDA2B /* YCPopViewArrayModel.m */,
+				D120AD831D61B105004FDA2B /* Main.storyboard */,
+				D120AD861D61B105004FDA2B /* Assets.xcassets */,
+				D120AD881D61B105004FDA2B /* LaunchScreen.storyboard */,
+				D120AD8B1D61B105004FDA2B /* Info.plist */,
+				D120AD7A1D61B105004FDA2B /* Supporting Files */,
+			);
+			path = CoinPostAnimation;
+			sourceTree = "<group>";
+		};
+		D120AD7A1D61B105004FDA2B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D120AD7B1D61B105004FDA2B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D120AD761D61B105004FDA2B /* CoinPostAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D120AD8E1D61B105004FDA2B /* Build configuration list for PBXNativeTarget "CoinPostAnimation" */;
+			buildPhases = (
+				D120AD731D61B105004FDA2B /* Sources */,
+				D120AD741D61B105004FDA2B /* Frameworks */,
+				D120AD751D61B105004FDA2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoinPostAnimation;
+			productName = YCDemo;
+			productReference = D120AD771D61B105004FDA2B /* CoinPostAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D120AD6F1D61B105004FDA2B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = it.com;
+				TargetAttributes = {
+					D120AD761D61B105004FDA2B = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = WPJ8838WLL;
+					};
+				};
+			};
+			buildConfigurationList = D120AD721D61B105004FDA2B /* Build configuration list for PBXProject "CoinPostAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D120AD6E1D61B105004FDA2B;
+			productRefGroup = D120AD781D61B105004FDA2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D120AD761D61B105004FDA2B /* CoinPostAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D120AD751D61B105004FDA2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D120AD8A1D61B105004FDA2B /* LaunchScreen.storyboard in Resources */,
+				D120AD871D61B105004FDA2B /* Assets.xcassets in Resources */,
+				D120AD851D61B105004FDA2B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D120AD731D61B105004FDA2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D120AD821D61B105004FDA2B /* ViewController.m in Sources */,
+				D120AD7F1D61B105004FDA2B /* AppDelegate.m in Sources */,
+				D120AD7C1D61B105004FDA2B /* main.m in Sources */,
+				D120AD961D61DF31004FDA2B /* YCPopViewArrayModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D120AD831D61B105004FDA2B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D120AD841D61B105004FDA2B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D120AD881D61B105004FDA2B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D120AD891D61B105004FDA2B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D120AD8C1D61B105004FDA2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D120AD8D1D61B105004FDA2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D120AD8F1D61B105004FDA2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = CoinPostAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liuyinchen.com.YCDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D120AD901D61B105004FDA2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = CoinPostAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liuyinchen.com.YCDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D120AD721D61B105004FDA2B /* Build configuration list for PBXProject "CoinPostAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D120AD8C1D61B105004FDA2B /* Debug */,
+				D120AD8D1D61B105004FDA2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D120AD8E1D61B105004FDA2B /* Build configuration list for PBXNativeTarget "CoinPostAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D120AD8F1D61B105004FDA2B /* Debug */,
+				D120AD901D61B105004FDA2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D120AD6F1D61B105004FDA2B /* Project object */;
+}
